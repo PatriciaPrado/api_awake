@@ -16,7 +16,7 @@ MongoConnection.prototype.url = function(){
         case 'LOCAL':
            return 'mongodb://' + this.servidor + ':' + this.porta + '/' + this.banco ;
         case 'REMOTO':
-            return'mongodb+srv://PattyPrado:Pacp&131064@awake-qteks.mongodb.net/test?retryWrites=true&w=majority';
+            return'mongodb+srv://pattyprado:Pacp&131064@awake-qteks.mongodb.net/test?retryWrites=true&w=majority';
     }
 }
 
