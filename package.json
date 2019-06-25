@@ -1,10 +1,11 @@
+
 {
   "name": "api_awake",
   "version": "1.0.0",
   "description": "API para aplicativo de eventos",
   "main": "app.js",
   "scripts": {
-    "dev": "node_modules/.bin/nodemon app.js"
+       "start": "node_modules/.bin/nodemon app.js"
   },
   "author": "programador mobile",
   "license": "ISC",

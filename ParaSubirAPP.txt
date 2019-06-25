@@ -1,0 +1,11 @@
+mudar número da porta
+// Definição da porta em que a API irá atender as requisições
+const porta = process.env.PORT || 8080;
+
+
+CRIAR ROTA NA RAIZ
+
+
+PACKAGE.JSON
+ // Trocar o DEV por START 
+    // "dev": "node_modules/.bin/nodemon app.js"
