@@ -6,7 +6,6 @@ var objectId = require('mongodb').ObjectID;
 const multer = require('../config/multer');
 const fs = require('fs');
 
-
 // Upload de imagem
 app.post('/upload', multer, (requisicao, resposta) =>{
 
@@ -35,7 +34,6 @@ app.post('/upload', multer, (requisicao, resposta) =>{
                 });
         });        
 });
-
 
 // Exclui um evento pelo ID do evento
 app.delete('/:id', function(requisicao, resposta){
